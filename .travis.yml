@@ -13,7 +13,8 @@ script:
   - yarn test
 
 notifications:
-  slack: curso-webpack:OLpF7rBBcVhLIYqkGLUjg4xC
+  slack: 
+    secure: "M1L5GBkcBnJULFSJ3KNY0TmCuHlAjPsSd4hxksTTptFp4uBSWajLGNJohFJL1o2eQUOZ0qg7GuvFxGxtC1KXQUzk7xSTAfM7WErfL4L1geSwcLlzYVzsqZwyEiCr73Z8vtmhOYq1MerU5fgCp9C6/wyszlVXyvNxriT4sIdo5RXWe1r6CUldCK3I27xdnKsVqmRq6EKb5b2oJ3c+O/6BIm4QMCZLiZKz/QVcwE5DvT1bKR8366Ucf5Zh68OnKIyWC5vgpV/aji72Whc4SV78lXlGyaSkiY/Mp8tD831hikg59L/umQqfmMg8B4l6H0rOtHDSj993H9doLtqDiaKjyJaBh88fZScLldRi+FCkmekgwndeYg2rlFPyKRH8N6Z5UURRqQi8OAIdcJJk23uDXc5GCJL+L8gDfn57iOW2OglhnGQDnQPyuss6mrx+OGBfD5qr2Ar0m+nCY0EfzQTc47/VRuE8zZdlxNRFLxw7PTgZkV8/TTWWq385ySz2CdJDja6J31S1iEJPD7pvBESMBkcpSGfv7+1uVclw6hEzAXf6GWxWYf2fmIik8lM5xaO6TJmNvdp3vUW4Dgv3QX4LYvS1JQWihShfuFZb5HdzIVDmyHpLUDcQs1W0uxmle9+r4W4CCtObq6iJgVAyQHx2mL8gYkDwFo3cWkVabFNZZ5E="
   email:
     recipients: 
       - leo63582@gmail.com
@@ -24,7 +25,8 @@ deploy:
   provide: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: dcddec65-907c-48d2-9e06-ba10229dd387
+  api_key: 
+    secure:  secure: "oyV8Vz9qDQc3eOqUEe0ETlofewq0csWp1ZvX32QRFsSYI33mW1z0OYhrVmAPgaiALPqOKw/bR6V+d91TwHa6ThPjhWYMeOjnoYz4Oz92HGM3efa8CTPwyWUcVGtsGbRLRb1Nhoki397bvLsWg5MqGUkplJf5501o0k6oq8dLLdWES2gDVM92KQi92l/uzkaqevr5yh6mMIbu9oWI6nZMedDzycmYXPPDxiUBp2V0FSsb/UMP+yEE6XlLaDrxH8J3LoGyDjlaVp9o3dzDUnWV1lG6MjoM7B2zg7BMQ0MCkAkVfIhEGPk8GkzuR6m6u33s5UtwYOtGx5F+1U0moBUO9v5p6PmNN+d4zLA9sF5PCM8QTeutDBhJ5KMKJMftNNA38quoXkOznpcbMCWKOTpzTWeGvJLa1iDA8fhDBposklDfGi2gLg5+Lx+icz0QNuxWR79POsQZ5ReTws1jNC1953rjPenV6S7eGiTI45Ouex+MSrVkV+rYxtW9rvGvnFyWTa0BnloPJdbvgJsBUZR4q1Jh+yW5KcVimxt3KUUXGxeTPOy9tmnWQM5YIOo+tPJNGqEk1TjQy72klVT1i54p+iEQCYV3MOKe8E3WI48/Mepyq0Kd+8+wYbBCxWMnf/FFipJ/+9kJLP36kIK+GtmXLAj00ANxNpGucSamjEkaNl8="
   app: leonangelit-platzi-store
   on:
     repo: LeonAngelit/platzi-store-backend
